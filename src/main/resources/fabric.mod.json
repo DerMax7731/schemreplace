@@ -1,0 +1,21 @@
+{
+	"schemaVersion": 1,
+	"id": "schemreplace",
+	"version": "${version}",
+	"name": "SchemReplace",
+	"description": "Swap blocks inside the selected Litematica schematic: /sr stone_bricks deepslate_bricks also swaps the matching stairs, slabs and walls. /sr list, /sr <from> hand, /sr undo.",
+	"authors": ["Max"],
+	"license": "CC0-1.0",
+	"environment": "client",
+	"entrypoints": {
+		"client": ["com.schemreplace.SchemReplace"]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*",
+		"litematica": "*",
+		"malilib": "*"
+	}
+}
